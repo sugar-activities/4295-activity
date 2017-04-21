@@ -1,0 +1,55 @@
+#activity.py
+msgid "Clics Player"
+msgstr "Reproductor de Clics"
+
+
+#manager.py
+msgid "SELECT A CLIC TO PLAY"
+msgstr "SELECCIONA UN CLIC PER JUGAR"
+
+
+#manager.py
+msgid "SELECT A CLIC TO DELETE"
+msgstr "SELECCIONA UN CLIC PER ESBORRAR"
+
+
+#manager.py
+msgid "DO YOU REALLY WANT TO DELETE"
+msgstr "ESTÀS SEGUR D'ESBORRAR"
+
+
+#clicInstaller.py
+msgid "ONCE DOWNLOADED, YOU WILL HAVE THE CLIC ON YOUR LIST."
+msgstr "UNA VEGADA DESCARREGAT, TINDRÀS EL CLIC EN EL TEU LLISTAT."
+
+#clicInstaller.py
+msgid "IT WAS NOT POSSIBLE TO DOWNLOAD"
+msgstr "NO HA SIGUT POSSIBLE DESCARREGAR"
+
+#manager.py
+msgid "CLICS TO DOWNLOAD"
+msgstr "CLICS PER DESCARREGAR"
+
+#manager.py
+msgid "MAIN MENU"
+msgstr "MENÚ PRINCIPAL"
+
+#manager.py
+msgid "DELETE CLICS"
+msgstr "ESBORRAR CLICS"
+
+#manager.py
+msgid "MANUAL"
+msgstr "MANUAL"
+
+#manager.py
+msgid "ABOUT SUGARCLIC"
+msgstr "SOBRE SUGARCLIC"
+
+#manager.py
+msgid "DOWNLOAD CLICS"
+msgstr "DESCARREGAR CLICS"
+
+#manager.py
+msgid "MY CLICS"
+msgstr "ELS MEUS CLICS"

@@ -1,0 +1,298 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>PortalClic | El portal de clics para el OLPC</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/sites/all/themes/iTheme2/favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views/css/views.css?G" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?G" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?G" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?G" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?G" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?G" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/theme/content-module.css?G" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?G" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/lightbox2/css/lightbox.css?G" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/tagadelic/tagadelic.css?G" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/iTheme2/style.css?G" />
+<link type="text/css" rel="stylesheet" media="print" href="/sites/all/themes/iTheme2/print.css?G" />
+    <script type="text/javascript" src="/misc/jquery.js?G"></script>
+<script type="text/javascript" src="/misc/drupal.js?G"></script>
+<script type="text/javascript" src="/sites/all/modules/lightbox2/js/lightbox.js?G"></script>
+<script type="text/javascript" src="/sites/all/modules/views/js/base.js?G"></script>
+<script type="text/javascript" src="/sites/all/modules/views/js/dependent.js?G"></script>
+<script type="text/javascript" src="/misc/tableheader.js?G"></script>
+<script type="text/javascript" src="/sites/all/themes/iTheme2/js/jquery.cookie.js?G"></script>
+<script type="text/javascript" src="/sites/all/themes/iTheme2/js/itheme.ui.js?G"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "lightbox2": { "rtl": "0", "file_path": "/(\\w\\w/)sites/default/files", "default_image": "/sites/all/modules/lightbox2/images/brokenimage.jpg", "border_size": 10, "font_color": "000", "box_color": "fff", "top_position": "", "overlay_opacity": 0.8, "overlay_color": "000", "disable_close_click": true, "resize_sequence": 0, "resize_speed": 400, "fade_in_speed": 400, "slide_down_speed": 600, "use_alt_layout": false, "disable_resize": false, "disable_zoom": false, "force_show_nav": false, "loop_items": false, "node_link_text": "View Image Details", "node_link_target": false, "image_count": "Image !current of !total", "video_count": "Video !current of !total", "page_count": "Page !current of !total", "lite_press_x_close": "press \x3ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\x3e\x3ckbd\x3ex\x3c/kbd\x3e\x3c/a\x3e to close", "download_link_text": "", "enable_login": false, "enable_contact": false, "keys_close": "c x 27", "keys_previous": "p 37", "keys_next": "n 39", "keys_zoom": "z", "keys_play_pause": "32", "display_image_size": "", "image_node_sizes": "()", "trigger_lightbox_classes": "", "trigger_lightbox_group_classes": "", "trigger_slideshow_classes": "", "trigger_lightframe_classes": "", "trigger_lightframe_group_classes": "", "custom_class_handler": 0, "custom_trigger_classes": "", "disable_for_gallery_lists": true, "disable_for_acidfree_gallery_lists": true, "enable_acidfree_videos": true, "slideshow_interval": 5000, "slideshow_automatic_start": true, "slideshow_automatic_exit": true, "show_play_pause": true, "pause_on_next_click": false, "pause_on_previous_click": true, "loop_slides": false, "iframe_width": 600, "iframe_height": 400, "iframe_border": 1, "enable_video": false } });
+//--><!]]>
+</script>
+	<!--[if lt IE 7]>
+	<link rel="stylesheet" href="ie-gif.css" type="text/css" />
+	<![endif]-->
+   
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="page">
+	<div id="wrapper">
+	<div id="header">
+		<a href="/"><img src="/sites/default/files/itheme2_logo.png" alt="" id="logo" /></a>	
+		<h2><a href="/">PortalClic</a></h2>
+		<div class="slogan">El portal de clics para el OLPC</div>	
+			
+    </div><!-- /header -->
+    <div id="left-col">
+        <div id="nav">              
+                              		</div><!-- /nav -->
+		<div id="content">
+									
+						
+											
+									<div class="view view-galeria-clic view-id-galeria_clic view-display-id-page_1 view-dom-id-1">
+    
+      <div class="view-filters">
+      <form action="/?q=galeria"  accept-charset="UTF-8" method="get" id="views-exposed-form-galeria-clic-page-1">
+<div>  <input type="hidden" name="q" id="edit-q" value="galeria"  />
+<div class="views-exposed-form">
+  <div class="views-exposed-widgets clear-block">
+          <div class="views-exposed-widget">
+                  <label for="edit-field-tematica-value-many-to-one">
+            Tematica          </label>
+                        <div class="views-widget">
+          <div class="form-item" id="edit-field-tematica-value-many-to-one-wrapper">
+ <select name="field_tematica_value_many_to_one" class="form-select" id="edit-field-tematica-value-many-to-one" ><option value="All" selected="selected">&lt;Any&gt;</option><option value="Lengua:Castellano">Lengua:Castellano</option><option value="Lengua: Inglés">Lengua: Inglés</option><option value="Lengua: Francés">Lengua: Francés</option><option value="Lengua: Otras Lenguas">Lengua: Otras Lenguas</option><option value="Lengua: Catalan">Lengua: Catalan</option><option value="Matemáticas">Matemáticas</option><option value="Ciencias sociales">Ciencias sociales</option><option value="Historia">Historia</option><option value="Informática">Informática</option><option value="Ciencias experimentales">Ciencias experimentales</option><option value="Geografía">Geografía</option><option value="Música">Música</option><option value="Plástica y visual">Plástica y visual</option><option value="Educación física">Educación física</option><option value="Tecnología">Tecnología</option><option value="Religión">Religión</option><option value="Varios">Varios</option></select>
+</div>
+        </div>
+      </div>
+          <div class="views-exposed-widget">
+                  <label for="edit-field-lengua-value-many-to-one">
+            Llengua          </label>
+                        <div class="views-widget">
+          <div class="form-item" id="edit-field-lengua-value-many-to-one-wrapper">
+ <select name="field_lengua_value_many_to_one" class="form-select" id="edit-field-lengua-value-many-to-one" ><option value="All" selected="selected">&lt;Any&gt;</option><option value="cas">Castellano</option><option value="cat">Catalan</option><option value="eng">Ingles</option><option value="fr">Francés</option><option value="other">Otra</option></select>
+</div>
+        </div>
+      </div>
+        <div class="views-exposed-widget">
+      <input type="submit" id="edit-submit-galeria-clic" value="Aplicar"  class="form-submit" />
+    </div>
+  </div>
+</div>
+</div></form>
+    </div>
+  
+  
+      <div class="view-content">
+      <table class="views-table sticky-enabled">
+    <thead>
+    <tr>
+              <th class="views-field views-field-title">
+          <a href="/?q=galeria&amp;order=title&amp;sort=asc" title="sort by Título" class="active">Título</a>        </th>
+              <th class="views-field views-field-field-tematica-value">
+          <a href="/?q=galeria&amp;order=field_tematica_value&amp;sort=asc" title="sort by Tematica" class="active">Tematica</a>        </th>
+              <th class="views-field views-field-field-autor-value">
+          <a href="/?q=galeria&amp;order=field_autor_value&amp;sort=asc" title="sort by Autor" class="active">Autor</a>        </th>
+              <th class="views-field views-field-field-lengua-value">
+          <a href="/?q=galeria&amp;order=field_lengua_value&amp;sort=asc" title="sort by Lengua" class="active">Lengua</a>        </th>
+              <th class="views-field views-field-field-icono-fid">
+                  </th>
+          </tr>
+  </thead>
+  <tbody>
+          <tr class="odd views-row-first">
+                  <td class="views-field views-field-title">
+            <a href="/?q=content/aprendiendo-reciclar">Aprendiendo a reciclar</a>          </td>
+                  <td class="views-field views-field-field-tematica-value">
+            <a href="/?q=galeria/Ciencias%20experimentales">Ciencias experimentales</a>          </td>
+                  <td class="views-field views-field-field-autor-value">
+            Isabel Moro Moro          </td>
+                  <td class="views-field views-field-field-lengua-value">
+            Castellano          </td>
+                  <td class="views-field views-field-field-icono-fid">
+            <img  class="imagefield imagefield-field_icono" width="40" height="40" alt="" src="http://www.sbennel.es/sites/default/files/recicla.png?1265128775" />          </td>
+              </tr>
+          <tr class="even">
+                  <td class="views-field views-field-title">
+            <a href="/?q=content/colors-p3">Colors P3</a>          </td>
+                  <td class="views-field views-field-field-tematica-value">
+            <a href="/?q=galeria/Pl%C3%A1stica%20y%20visual">Plástica y visual</a>          </td>
+                  <td class="views-field views-field-field-autor-value">
+            Azucena Vázquez Gutiérrez          </td>
+                  <td class="views-field views-field-field-lengua-value">
+            Castellano          </td>
+                  <td class="views-field views-field-field-icono-fid">
+            <img  class="imagefield imagefield-field_icono" width="60" height="60" alt="" src="http://www.sbennel.es/sites/default/files/color_icon.jpeg?1265109424" />          </td>
+              </tr>
+          <tr class="odd">
+                  <td class="views-field views-field-title">
+            <a href="/?q=content/dinosaures-p5">Dinosaures P5</a>          </td>
+                  <td class="views-field views-field-field-tematica-value">
+            <a href="/?q=galeria/Ciencias%20experimentales">Ciencias experimentales</a>          </td>
+                  <td class="views-field views-field-field-autor-value">
+            Càrol Bujaldón Roig          </td>
+                  <td class="views-field views-field-field-lengua-value">
+            Castellano          </td>
+                  <td class="views-field views-field-field-icono-fid">
+            <img  class="imagefield imagefield-field_icono" width="60" height="60" alt="" src="http://www.sbennel.es/sites/default/files/dinosaurio.jpg?1265149299" />          </td>
+              </tr>
+          <tr class="even">
+                  <td class="views-field views-field-title">
+            <a href="/?q=content/font-roja">Font Roja</a>          </td>
+                  <td class="views-field views-field-field-tematica-value">
+            <a href="/?q=galeria/Ciencias%20experimentales">Ciencias experimentales</a>          </td>
+                  <td class="views-field views-field-field-autor-value">
+            Jesus Grau i Garcia , Mònica Domínguez Botella  y Norman Gar          </td>
+                  <td class="views-field views-field-field-lengua-value">
+            Catalan          </td>
+                  <td class="views-field views-field-field-icono-fid">
+            <img  class="imagefield imagefield-field_icono" width="40" height="40" alt="" src="http://www.sbennel.es/sites/default/files/fountainIconNO.png?1265150532" />          </td>
+              </tr>
+          <tr class="odd">
+                  <td class="views-field views-field-title">
+            <a href="/?q=content/jugamos-con-los-animales">Jugamos con los animales</a>          </td>
+                  <td class="views-field views-field-field-tematica-value">
+            <a href="/?q=galeria/Ciencias%20experimentales">Ciencias experimentales</a>          </td>
+                  <td class="views-field views-field-field-autor-value">
+            Francisco García-Pozuelo Díaz y Juana Rello Serrano          </td>
+                  <td class="views-field views-field-field-lengua-value">
+            Castellano          </td>
+                  <td class="views-field views-field-field-icono-fid">
+            <img  class="imagefield imagefield-field_icono" width="60" height="60" alt="" src="http://www.sbennel.es/sites/default/files/lion.jpg?1265118925" />          </td>
+              </tr>
+          <tr class="even">
+                  <td class="views-field views-field-title">
+            <a href="/?q=content/la-bicicleta">La bicicleta</a>          </td>
+                  <td class="views-field views-field-field-tematica-value">
+            <a href="/?q=galeria/Educaci%C3%B3n%20f%C3%ADsica">Educación física</a>          </td>
+                  <td class="views-field views-field-field-autor-value">
+            Begoña Ramírez Díaz          </td>
+                  <td class="views-field views-field-field-lengua-value">
+            Castellano          </td>
+                  <td class="views-field views-field-field-icono-fid">
+            <img  class="imagefield imagefield-field_icono" width="60" height="60" alt="" src="http://www.sbennel.es/sites/default/files/bicicleta.jpg?1265151944" />          </td>
+              </tr>
+          <tr class="odd">
+                  <td class="views-field views-field-title">
+            <a href="/?q=content/les-plantes">Les plantes</a>          </td>
+                  <td class="views-field views-field-field-tematica-value">
+            <a href="/?q=galeria/Ciencias%20experimentales">Ciencias experimentales</a>          </td>
+                  <td class="views-field views-field-field-autor-value">
+            Ferran Estruch Mascarell          </td>
+                  <td class="views-field views-field-field-lengua-value">
+            Catalan          </td>
+                  <td class="views-field views-field-field-icono-fid">
+            <img  class="imagefield imagefield-field_icono" width="50" height="50" alt="" src="http://www.sbennel.es/sites/default/files/plantes.gif?1265128137" />          </td>
+              </tr>
+          <tr class="even">
+                  <td class="views-field views-field-title">
+            <a href="/?q=content/los-sentidos">Los sentidos</a>          </td>
+                  <td class="views-field views-field-field-tematica-value">
+            <a href="/?q=galeria/Ciencias%20experimentales">Ciencias experimentales</a>          </td>
+                  <td class="views-field views-field-field-autor-value">
+            Amaya Padilla Collado          </td>
+                  <td class="views-field views-field-field-lengua-value">
+            Castellano          </td>
+                  <td class="views-field views-field-field-icono-fid">
+            <img  class="imagefield imagefield-field_icono" width="57" height="60" alt="" src="http://www.sbennel.es/sites/default/files/cincosentidos.jpg?1265905182" />          </td>
+              </tr>
+          <tr class="odd">
+                  <td class="views-field views-field-title">
+            <a href="/?q=content/wild-animals">Wild animals</a>          </td>
+                  <td class="views-field views-field-field-tematica-value">
+            <a href="/?q=galeria/"></a>          </td>
+                  <td class="views-field views-field-field-autor-value">
+            Carlos Medina Viedma          </td>
+                  <td class="views-field views-field-field-lengua-value">
+            Catalan          </td>
+                  <td class="views-field views-field-field-icono-fid">
+            <img  class="imagefield imagefield-field_icono" width="60" height="60" alt="" src="http://www.sbennel.es/sites/default/files/wild.jpg?1266012473" />          </td>
+              </tr>
+          <tr class="even">
+                  <td class="views-field views-field-title">
+            <a href="/?q=content/demo-marc">[DEMO] Marc</a>          </td>
+                  <td class="views-field views-field-field-tematica-value">
+            <a href="/?q=galeria/Lengua%3ACastellano">Lengua:Castellano</a>          </td>
+                  <td class="views-field views-field-field-autor-value">
+            Marc Benito          </td>
+                  <td class="views-field views-field-field-lengua-value">
+            Castellano          </td>
+                  <td class="views-field views-field-field-icono-fid">
+            <img  class="imagefield imagefield-field_icono" width="60" height="60" alt="" src="http://www.sbennel.es/sites/default/files/wild_0.jpg?1266013238" />          </td>
+              </tr>
+          <tr class="odd views-row-last">
+                  <td class="views-field views-field-title">
+            <a href="/?q=content/demo-marc2">[DEMO] Marc2</a>          </td>
+                  <td class="views-field views-field-field-tematica-value">
+            <a href="/?q=galeria/Lengua%3ACastellano">Lengua:Castellano</a>          </td>
+                  <td class="views-field views-field-field-autor-value">
+            Marc Benito          </td>
+                  <td class="views-field views-field-field-lengua-value">
+            Castellano          </td>
+                  <td class="views-field views-field-field-icono-fid">
+            <img  class="imagefield imagefield-field_icono" width="60" height="60" alt="" src="http://www.sbennel.es/sites/default/files/wild_1.jpg?1266013349" />          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div> 		</div><!--/content -->
+		<div id="footer">Creado por el departamento de ESSI de la UPC (Universidad Politecnica de Catalunya) Powered by <strong>Drupal</strong> <a href="http://www.salle.ru">iTheme</a></div>
+    </div><!--/left-col -->		
+	<div id="sidebar"  >
+	         <div id="sidebar-left" class="sidebar">
+                    <div class="dbx-box" id="block-menu-menu-menu">
+
+  <h3 class="dbx-handle">Menú</h3>
+
+  <div class="dbx-content"><ul class="menu"><li class="leaf first"><a href="/?q=inicio" title="Página de inicio">Inicio</a></li>
+<li class="leaf active-trail"><a href="/?q=galeria" title="" class="active">Galeria de JClics</a></li>
+<li class="leaf last"><a href="/?q=descargas">Downloads</a></li>
+</ul></div>
+</div><div class="dbx-box" id="block-tagadelic-1">
+
+  <h3 class="dbx-handle"> Nubol de tags</h3>
+
+  <div class="dbx-content"><a href="/?q=category/palabras-clave/colores" class="tagadelic level1" rel="tag">Colores</a> 
+<a href="/?q=category/palabras-clave/p3" class="tagadelic level1" rel="tag">p3</a> 
+<a href="/?q=category/palabras-clave/animales" class="tagadelic level1" rel="tag">Animales</a> 
+</div>
+</div><div class="dbx-box" id="block-user-0">
+
+  <h3 class="dbx-handle">User login</h3>
+
+  <div class="dbx-content"><form action="/?q=galeria&amp;destination=galeria"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Password: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
+<div class="item-list"><ul><li class="first"><a href="/?q=user/register" title="Create a new user account.">Create new account</a></li>
+<li class="last"><a href="/?q=user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-d44086918c58fa39d1096db9d5ccb7b6" value="form-d44086918c58fa39d1096db9d5ccb7b6"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+</div>
+</div>        </div>
+      	   
+	</div><!--/sidebar -->
+    <hr class="hidden" />
+</div>
+	<!--/wrapper -->
+</div><!--/page -->
+</body>
+</html>

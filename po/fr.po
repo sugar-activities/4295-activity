@@ -1,0 +1,54 @@
+#activity.py
+msgid "Clics Player"
+msgstr "Clics Joueur"
+
+
+#manager.py
+msgid "SELECT A CLIC TO PLAY"
+msgstr "SÉLECTIONNE UN CLIC POUR JOUER"
+
+
+#manager.py
+msgid "SELECT A CLIC TO DELETE"
+msgstr "SÉLECTIONNE UN CLIC POUR SUPPRIMER"
+
+#manager.py
+msgid "DO YOU REALLY WANT TO DELETE"
+msgstr "ETES-VOUS SÛR DE VOULOIR SUPPRIMER"
+
+
+#clicInstaller.py
+msgid "ONCE DOWNLOADED, YOU WILL HAVE THE CLIC ON YOUR LIST."
+msgstr "UNE FOIS TÉLÉCHARGÉ, VOUS AUREZ LE CLIC DANS VOTRE LISTE."
+
+#clicInstaller.py
+msgid "IT WAS NOT POSSIBLE TO DOWNLOAD"
+msgstr "IL N'ÉTAIT PAS POSSIBLE DE TÉLÉCHARGER"
+
+#manager.py
+msgid "CLICS TO DOWNLOAD"
+msgstr "CLICS POUR TÉLÉCHARGER"
+
+#manager.py
+msgid "MAIN MENU"
+msgstr "MENU PRINCIPAL"
+
+#manager.py
+msgid "DELETE CLICS"
+msgstr "SUPPRIMER CLICS"
+
+#manager.py
+msgid "MANUAL"
+msgstr "MANUEL"
+
+#manager.py
+msgid "ABOUT SUGARCLIC"
+msgstr "AU SUJET DE SUGARCLIC"
+
+#manager.py
+msgid "DOWNLOAD CLICS"
+msgstr "TÉLÉCHARGER CLICS"
+
+#manager.py
+msgid "MY CLICS"
+msgstr "MES CLICS"

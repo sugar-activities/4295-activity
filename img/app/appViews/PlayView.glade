@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE glade-interface SYSTEM "glade-2.0.dtd">
+<!--Generated with glade3 3.4.5 on Fri Dec 11 22:24:00 2009 -->
+<glade-interface>
+  <widget class="GtkWindow" id="window">
+    <child>
+      <widget class="GtkVBox" id="vboxPlay">
+        <property name="visible">True</property>
+        <child>
+          <widget class="GtkDrawingArea" id="playArea">
+            <property name="visible">True</property>
+          </widget>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</glade-interface>

@@ -1,0 +1,1063 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="conill" version="0.1.3">
+ <settings>
+  <title>El conill</title>
+  <revision description="Creació del paquet d'activitats en Clic 3.0" date="6/19/06" />
+  <revision description="Conversió de Clic3 a JClic" date="6/19/06">
+   <author name="Equip Clic" mail="clic@xtec.net" organization="Àrea TIC - Departament d'Educació" />
+  </revision>
+  <author name="Sílvia Puig Pagès" mail="spuig25@xtec.net" />
+  <organization name="CEIP Ramon Berenguer III" mail="a8013305@centres.xtec.es" url="http://www.xtec.es/centres/a8013305" city="Barcelona" state="Catalunya" />
+  <language>català</language>
+  <description>
+   <p>Projecte d'activitats per a educació infantil que tenen com a centre d'interès "el conill": què menja, on viu, com és...</p>
+  </description>
+  <descriptors area="Ciències experimentals, Llengües" level="Infantil (3-6)">animals</descriptors>
+ </settings>
+ <sequence>
+  <item id="start" name="portada">
+   <jump action="RETURN" id="back" />
+  </item>
+  <item name="IDENTIFICA CONILL" />
+  <item name="JOC DE MEMÒRIA" />
+  <item name="PUZZLE 1" />
+  <item name="JOC DE MEMÒRIA2" />
+  <item name="PUZZLE2" />
+  <item name="ASSOCIA" />
+  <item name="IDENTIFICA" />
+  <item name="ORDENA" />
+  <item name="IDENTIFICAR ELEMENTS" />
+  <item name="SOPA DE LLETRES" />
+  <item name="EXPLORACIÓ" />
+  <item name="COMPLETA" />
+  <item name="OMPLIR FORATS" />
+  <item name="RELACIONA">
+   <jump action="RETURN" id="forward" />
+  </item>
+ </sequence>
+ <activities>
+  <activity class="@associations.ComplexAssociation" name="ASSOCIA" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="18" bold="true" />
+      <color background="0x999900" />
+      <gradient source="0xCCCCFF" dest="0xFFFFFF" angle="0" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="Q.wav" />
+     <p>QUÈ MENJA EL CONILL?</p>
+    </cell>
+    <cell type="final">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="18" bold="true" />
+      <color background="0x999900" />
+      <gradient source="0xCCCCFF" dest="0xFFFFFF" angle="0" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="Q1.wav" />
+     <p>MOLT BÉ!!  CORRECTE!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x6666FF" dest="0xFFFFFF" angle="43" cycles="2" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCCCFF" border="true" />
+   </settings>
+   <cells rows="2" cols="3" cellWidth="138.0" cellHeight="137.0" border="true" id="primary">
+    <style borderStroke="0.7" markerStroke="5.0">
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell id="0" image="maiz1.jpg" />
+    <cell id="0" image="hierba.1.JPG" />
+    <cell id="1" image="macarrones.jpg" />
+    <cell id="0" image="pastagana2.JPG" />
+    <cell id="1" image="galletas.jpg" />
+    <cell id="1" image="nuez.jpg" />
+   </cells>
+   <cells rows="1" cols="2" cellWidth="84.0" cellHeight="90.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell>
+     <style>
+      <font family="Arial" size="28" bold="true" />
+     </style>
+     <p>SI</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="28" bold="true" />
+     </style>
+     <p>NO</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="COMPLETA" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="18" bold="true" />
+      <color background="0xCCFFCC" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="FRASE.wav" />
+     <p>COMPLETA LES FRASES AMB LA PARAULA CORRECTA.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="18" bold="true" />
+      <color background="0xCCFFCC" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="Q1.wav" />
+     <p>MOLT BÉ!!      CORRECTE!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x009933" dest="0xFFFFFF" angle="43" cycles="3" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <gradient source="0xCCFFCC" dest="0xFFFFFF" angle="101" />
+     <size width="717" height="362" />
+    </window>
+   </settings>
+   <document>
+    <style name="default" family="Arial" size="14" tabWidth="12" bold="false" background="0xCCFFCC" italic="false" />
+    <style name="target" base="default" target="true" foreground="0x0000FF" background="0xFFFFFF" />
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <section>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF">	 </text>
+      <cell width="130" height="100" image="pastanaga.1.JPG" />
+      <text family="Arial" background="0xFFFFFF">					</text>
+      <cell width="130" height="100" image="conills.cau.JPG" />
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF">      EL CONILL MENJA </text>
+      <target>
+       <answer>PASTANAGA</answer>
+       <optionList>
+        <option>FIDEUS</option>
+        <option>PASTANAGA</option>
+        <option>SOPA</option>
+       </optionList>
+       <text>PASTANAGA</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF">.		ELS CONILLS NEIXEN AMB ELS </text>
+      <target>
+       <answer>ULLS</answer>
+       <optionList>
+        <option>PEUS</option>
+        <option>ULLS</option>
+        <option>DITS</option>
+       </optionList>
+       <text>ULLS</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF"> TANCATS.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF">	</text>
+      <cell width="130" height="100" image="conejodientes.JPG" />
+      <text family="Arial" background="0xFFFFFF">					</text>
+      <cell width="130" height="100" image="conejo.peq.JPG" />
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF">  EL CONILL TÉ DUES </text>
+      <target>
+       <answer>DENTS</answer>
+       <optionList>
+        <option>POTES</option>
+        <option>DENTS</option>
+        <option>CUES</option>
+       </optionList>
+       <text>DENTS</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF">  MOLT LLARGUES.	     EL CONILL POT VIURE  EN UN </text>
+      <target>
+       <answer>CAU</answer>
+       <optionList>
+        <option>PIS</option>
+        <option>CAU</option>
+        <option>POU</option>
+       </optionList>
+       <text>CAU</text>
+      </target>
+      <text family="Arial" background="0xFFFFFF">.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@panels.Explore" name="EXPLORACIÓ" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="18" bold="true" />
+      <gradient source="0xFF3333" dest="0xFFFFFF" angle="143" cycles="2" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="EXPLORA.wav" />
+     <p>ESCOLTA AMB ATENCIÓ EL QUE DIU CADA IMATGE.</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x990000" dest="0xFFFFFF" angle="230" cycles="3" />
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <gradient source="0xFF9999" dest="0xFFFFFF" angle="101" />
+    </window>
+   </settings>
+   <cells rows="2" cols="3" cellWidth="166.0" cellHeight="141.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell id="0" image="conejitos+mama.jpg" />
+    <cell id="1" image="conejo.peq.JPG" />
+    <cell id="2" image="conill2.gif" />
+    <cell id="3" image="conillsorra.jpg" />
+    <cell id="4" image="rabbit..JPG" />
+    <cell id="5" image="gran.jpg" />
+   </cells>
+   <cells rows="6" cols="1" cellWidth="50.0" cellHeight="30.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="6" />
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="E1.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="E2.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="E3.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="E4.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="E5.wav" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="E6.wav" />
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.Identify" name="IDENTIFICA" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="18" bold="true" />
+      <gradient source="0x66FFFF" dest="0xFFFFFF" angle="0" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="VIURE1.wav" />
+     <p>CLICA SOBRE ELS LLOCS ON POT VIURE UN CONILL.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="18" bold="true" />
+      <gradient source="0x66FFFF" dest="0xFFFFFF" angle="0" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="VIURE2.wav" />
+     <p>MOLT BÉ!! EN UN ICEBERG FA MOLT DE FRED PER VIURE UN CONILL.</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x993300" dest="0xFFFFFF" angle="132" cycles="2" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <gradient source="0xFF9999" dest="0xFFCCCC" angle="0" />
+    </window>
+   </settings>
+   <cells rows="2" cols="3" cellWidth="149.0" cellHeight="116.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell id="1" image="conejo21.JPG">
+     <media type="PLAY_AUDIO" level="1" file="CAU.wav" />
+    </cell>
+    <cell id="1" image="gabia.jpg">
+     <media type="PLAY_AUDIO" level="1" file="GABIA.wav" />
+    </cell>
+    <cell id="1" image="granja.jpg">
+     <media type="PLAY_AUDIO" level="1" file="GRANJA.wav" />
+    </cell>
+    <cell id="1" image="granja1.jpg">
+     <media type="PLAY_AUDIO" level="1" file="GRANJA.wav" />
+    </cell>
+    <cell id="0" image="gel.jpg" />
+    <cell id="1" image="bosque.jpg">
+     <media type="PLAY_AUDIO" level="1" file="BOSC.wav" />
+    </cell>
+   </cells>
+   <cells rows="2" cols="3" cellWidth="50.0" cellHeight="30.0" border="true" id="solvedPrimary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell>
+     <p>EN UN CAU</p>
+    </cell>
+    <cell>
+     <p>EN UNA GÀBIA</p>
+    </cell>
+    <cell>
+     <p>EN UNA GRANJA</p>
+    </cell>
+    <cell>
+     <p>EN UNA GRANJA</p>
+    </cell>
+    <cell />
+    <cell>
+     <p>EN EL BOSC</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" />
+  </activity>
+  <activity class="@panels.Identify" name="IDENTIFICA CONILL" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="3.3">
+      <font family="Arial" size="18" bold="true" />
+      <gradient source="0x66FFFF" dest="0xFFFFFF" angle="0" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="IDEN2.wav" />
+     <p>QUINS ANIMALS NO SÓN CONILLS?</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="18" bold="true" />
+      <gradient source="0x66FFFF" dest="0xFFFFFF" angle="0" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="IDEN1.wav" />
+     <p> MOLT BÉ!!  AQUEST ANIMAL ÉS UN CONILL.</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x993300" dest="0xFFFFFF" angle="132" cycles="2" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x993300" border="true">
+     <gradient source="0xFF9999" dest="0xFFCCCC" angle="0" />
+    </window>
+   </settings>
+   <cells rows="2" cols="3" cellWidth="177.0" cellHeight="187.0" border="true" id="primary">
+    <style borderStroke="5.5" markerStroke="3.3">
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell id="1" image="cargol.jpg" />
+    <cell id="1" image="elefant.jpg" />
+    <cell id="1" image="gatet.jpg" />
+    <cell id="1" image="marieta.jpg" />
+    <cell id="1" image="ovella.jpg" />
+    <cell id="0" image="REDUIT.jpg" />
+   </cells>
+   <scramble times="31" primary="true" />
+  </activity>
+  <activity class="@text.Identify" name="IDENTIFICAR ELEMENTS" code="" type="identifyWords">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="18" bold="true" />
+      <gradient source="0x66FFFF" dest="0xFFFFFF" angle="0" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="IELEM.wav" />
+     <p>BUSCA I CLICA SOBRE  LES PARAULES QUE POSIN CONILL.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="18" bold="true" />
+      <gradient source="0x66FFFF" dest="0xFFFFFF" angle="0" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="IELEM1.wav" />
+     <p>MOLT BÉ!!!  EN AQUEST TEXT APAREIX 9 VEGADES LA PARAULA CONILL!!  COMPTA-LES.</p>
+    </cell>
+   </messages>
+   <settings margin="20" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x993300" dest="0xFFFFFF" angle="132" cycles="2" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <gradient source="0xFF9999" dest="0xFFCCCC" angle="0" />
+     <size width="507" height="365" />
+    </window>
+   </settings>
+   <checkButton>Avalua't</checkButton>
+   <document>
+    <style name="default" family="Arial" bold="false" background="0xCCFFCC" tabWidth="12" size="18" italic="false" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" background="0xFFFFFF" />
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" Alignment="0" background="0xFFFFFF">
+      <text size="11">		</text>
+      <text bold="true" size="16">	EL </text>
+      <target>CONILL</target>
+     </p>
+     <p family="Arial" Alignment="0" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text bold="true" size="16">	EL </text>
+      <target>CONILL</target>
+      <text bold="true" size="16"> ÉS UN MAMÍFER.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text bold="true" size="16">	MENJA PASTANAGUES, BLAT DE MORO, HERBA,...</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text bold="true" size="16">	EL </text>
+      <target>CONILL</target>
+      <text bold="true" size="16"> TÉ 4 POTES. LES 2 DE DARRERA SÓN 		MÉS LLARGUES I AIXÍ  EL </text>
+      <target>CONILL</target>
+      <text bold="true" size="16"> POT SALTAR MÉS 		LLUNY.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text bold="true" size="16">	EL </text>
+      <target>CONILL</target>
+      <text bold="true" size="16"> POT VIURE A CASA NOSTRA, EN UNA 		GRANJA O AL BOSC DINS D'UN CAU.</text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text bold="true" size="16">	POT SER DE DIFERENTS COLORS: </text>
+      <target>CONILL</target>
+      <text bold="true" size="16"> BLANC, 		</text>
+      <target>CONILL</target>
+      <text bold="true" size="16"> NEGRE, </text>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text bold="true" size="16">	</text>
+      <target>CONILL</target>
+      <text bold="true" size="16"> GRIS O </text>
+      <target>CONILL</target>
+      <text bold="true" size="16"> MARRÓ. </text>
+     </p>
+    </section>
+   </document>
+  </activity>
+  <activity class="@memory.MemoryGame" name="JOC DE MEMÒRIA" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="18" bold="true" />
+      <color background="0xCCFFCC" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="PARELLES1.wav" />
+     <p>BUSCA LES PARELLES.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="18" bold="true" />
+      <color background="0xCCFFCC" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="Q1.wav" />
+     <p>MOLT BÉ!!!  CORRECTE!!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0xFF9900" dest="0xFFFFFF" angle="77" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x339900" border="true" />
+   </settings>
+   <cells rows="2" cols="3" cellWidth="190.0" cellHeight="139.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell image="2con.jpg" />
+    <cell image="4conills.jpg" />
+    <cell image="conejo.jpg" />
+    <cell image="conejo2-1.JPG" />
+    <cell image="gran2.jpg" />
+    <cell image="conejoss.JPG" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="JOC DE MEMÒRIA2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="18" bold="true" />
+      <color background="0xCCFFCC" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="PARELLES1.wav" />
+     <p>BUSCA LES PARELLES.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="18" bold="true" />
+      <color background="0xCCFFCC" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="Q1.wav" />
+     <p>MOLT BÉ!!  CORRECTE!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0xFF9900" dest="0xFFFFFF" angle="77" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x339900" border="true" />
+   </settings>
+   <cells rows="2" cols="3" cellWidth="187.0" cellHeight="190.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell image="pastagana2.JPG" />
+    <cell image="maiz1.jpg" />
+    <cell image="hierba.1.JPG" />
+    <cell image="maiz.jpg" />
+    <cell image="hierba.2.JPG" />
+    <cell image="pastanaga.1.JPG" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="OMPLIR FORATS" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="18" bold="true" />
+      <color background="0xCCFFCC" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="OMPLIR1.wav" />
+     <p>FIXA'T AMB LA IMATGE I ESCRIU EL QUE ÉS.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="18" bold="true" />
+      <color background="0xCCFFCC" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="OMPLIR2.wav" />
+     <p>MOLT BÉ!!    HO HAS FET MOLT BÉ!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x009933" dest="0xFFFFFF" angle="43" cycles="3" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCFFCC" border="true">
+     <size width="780" height="300" />
+    </window>
+   </settings>
+   <document>
+    <style name="default" italic="false" bold="false" tabWidth="12" size="16" background="0xFFFFFF" family="Arial" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <section>
+     <p background="0xFFFFFF" family="Arial">
+      <text background="0xFFFFFF" family="Arial"> </text>
+     </p>
+     <p background="0xFFFFFF" family="Arial" />
+     <p background="0xFFFFFF" family="Arial">
+      <text background="0xFFFFFF" family="Arial">     </text>
+      <cell width="150" height="150" image="pastanaga.1.JPG" />
+      <text background="0xFFFFFF" family="Arial">      	</text>
+      <cell width="150" height="150" image="conillet.jpg" />
+      <text background="0xFFFFFF" family="Arial">           	</text>
+      <cell width="150" height="150" image="ORELLES.jpg" />
+     </p>
+     <p background="0xFFFFFF" family="Arial" />
+     <p background="0xFFFFFF" family="Arial" />
+     <p background="0xFFFFFF" family="Arial" />
+     <p background="0xFFFFFF" family="Arial">
+      <text size="24" background="0xFFFFFF" family="Arial">   </text>
+      <text size="18" background="0xFFFFFF" family="Arial">	</text>
+      <text size="16" background="0xFFFFFF" family="Arial">P</text>
+      <target>
+       <answer>ASTANAGA</answer>
+       <response fill="_" length="8" maxLength="8" />
+       <text>ASTANAGA</text>
+      </target>
+      <text size="16" background="0xFFFFFF" family="Arial">       		           C</text>
+      <target>
+       <answer>ONILL</answer>
+       <response fill="_" length="5" maxLength="5" />
+       <text>ONILL</text>
+      </target>
+      <text size="18" background="0xFFFFFF" family="Arial">	      	</text>
+      <text background="0xFFFFFF" family="Arial">	         O</text>
+      <target>
+       <answer>RELLES</answer>
+       <response fill="_" length="6" maxLength="6" />
+       <text>RELLES</text>
+      </target>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="ORDENA" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="18" bold="true" />
+      <color background="0xFFCCCC" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="ORDENA1.WAV" />
+     <p>ORDENA LA PARAULA CONILL.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="18" bold="true" />
+      <color background="0xFFCCCC" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="ORDENA2.WAV" />
+     <p>MOLT BÉ!!     C - O - N - I - L - L</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0xFF9900" dest="0xFFFFFF" angle="77" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="1" cols="6" cellWidth="109.0" cellHeight="121.0" border="true">
+    <style borderStroke="0.7" markerStroke="5.0">
+     <font family="Arial" size="48" bold="true" />
+     <color background="0xFFCC99" />
+    </style>
+    <shaper class="@Rectangular" cols="6" rows="1" />
+    <cell>
+     <p>C</p>
+    </cell>
+    <cell>
+     <p>O</p>
+    </cell>
+    <cell>
+     <p>N</p>
+    </cell>
+    <cell>
+     <p>I</p>
+    </cell>
+    <cell>
+     <p>L</p>
+    </cell>
+    <cell>
+     <p>L</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="PUZZLE 1" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="18" bold="true" />
+      <color background="0xFFCCCC" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="P2.wav" />
+     <p>QUIN ANIMAL S'AMAGA?</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="18" bold="true" />
+      <color background="0xFFCCCC" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="P1.wav" />
+     <p>MOLT BÉ!!   ÉS UN CONILL</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0xFF9900" dest="0xFFFFFF" angle="77" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFF99" border="true" />
+   </settings>
+   <cells rows="3" cols="3" border="true" image="gran3.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="PUZZLE2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="2.7">
+      <font family="Arial" size="18" bold="true" />
+      <color background="0xFFCCCC" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="PUZZLE2.wav" />
+     <p>FES EL PUZZLE I SABRÀS EL QUE MENJA UN CONILL.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="18" bold="true" />
+      <color background="0xFFCCCC" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="PUZZLE2'.wav" />
+     <p>MOLT BÉ! EL CONILL MENJA PASTANAGA.</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xFF9933">
+     <gradient source="0xFF9900" dest="0xFFFFFF" angle="77" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="2" cols="3" border="true" image="pastagana2.JPG">
+    <style borderStroke="1.5" markerStroke="2.7" />
+    <shaper class="@ClassicJigSaw" cols="3" rows="2" baseWidthFactor="0.76" toothHeightFactor="0.493" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="RELACIONA" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="18" bold="true" />
+      <gradient source="0xCCFFCC" dest="0xFFFFFF" angle="0" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="QQ.wav" />
+     <p>QUANTS CONILLS HI HA?    RELACIONA-HO AMB EL SEU NOMBRE.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="18" bold="true" />
+      <gradient source="0xCCFFCC" dest="0xFFFFFF" angle="0" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="Q1.wav" />
+     <p>MOLT BÉ!!  CORRECTE!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x999900" dest="0xFFFFFF" angle="91" cycles="2" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFCC" border="true" />
+   </settings>
+   <cells rows="1" cols="6" cellWidth="107.0" cellHeight="98.0" border="true" id="primary">
+    <style borderStroke="0.7" markerStroke="5.0">
+     <color background="0xFFFFCC" />
+    </style>
+    <shaper class="@Rectangular" cols="6" rows="1" />
+    <cell image="4CONILLS..jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="5CONILLS.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="6CONILLS.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="7CONILLS.jpg" />
+    <cell image="8CONILLS.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="9CONILLS.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <cells rows="1" cols="6" cellWidth="62.0" cellHeight="56.0" border="true" id="secondary">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color background="0xCCFFCC" />
+    </style>
+    <shaper class="@Rectangular" cols="6" rows="1" />
+    <cell>
+     <p>4</p>
+    </cell>
+    <cell>
+     <p>5</p>
+    </cell>
+    <cell>
+     <p>6</p>
+    </cell>
+    <cell>
+     <p>7</p>
+    </cell>
+    <cell>
+     <p>8</p>
+    </cell>
+    <cell>
+     <p>9</p>
+    </cell>
+   </cells>
+   <cells rows="1" cols="6" cellWidth="50.0" cellHeight="30.0" border="true" id="solvedPrimary">
+    <style />
+    <shaper class="@Rectangular" cols="6" rows="1" />
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="4.wav" />
+     <p>4 CONILLS</p>
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="5.wav" />
+     <p>5 CONILLS</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFCC" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="6.wav" />
+     <p>6 CONILLS</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFCC" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="7.wav" />
+     <p>7 CONILLS</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFCC" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="8.wav" />
+     <p>8 CONILLS</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFCC" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="9.wav" />
+     <p>9 CONILLS</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AUB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="SOPA DE LLETRES" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="18" bold="true" />
+      <gradient source="0x99FFCC" dest="0xFFFFFF" angle="87" cycles="2" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="SOPA.wav" />
+     <p>BUSCA EN LA SOPA DE LLETRES LES PARTS D'UN CONILL.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="18" bold="true" />
+      <gradient source="0x99FFCC" dest="0xFFFFFF" angle="87" cycles="2" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="Q1.wav" />
+     <p>MOLT BÉ!!!  CORRECTE!!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <gradient source="0x006633" dest="0xCCFFCC" angle="77" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x33CC00" border="true" />
+   </settings>
+   <textGrid rows="7" columns="7" cellWidth="49.0" cellHeight="44.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>BIGOTIS</row>
+     <row>ORELLES</row>
+     <row>*******</row>
+     <row>**ULL**</row>
+     <row>URPA***</row>
+     <row>**DENTS</row>
+     <row>POTES**</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">BIGOTIS</clue>
+    <clue id="1">ORELLES</clue>
+    <clue id="2">URPA</clue>
+    <clue id="3">DENTS</clue>
+    <clue id="4">ULL</clue>
+    <clue id="5">POTES</clue>
+   </clues>
+   <cells rows="3" cols="2" cellWidth="183.0" cellHeight="120.0" border="true" id="secondary">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="3" />
+    <cell image="BIGOTIS.jpg">
+     <media type="PLAY_AUDIO" level="1" file="BIGOTI.wav" />
+    </cell>
+    <cell image="ORELLES.jpg">
+     <media type="PLAY_AUDIO" level="1" file="ORELLES.wav" />
+    </cell>
+    <cell image="urpa.JPG">
+     <media type="PLAY_AUDIO" level="1" file="URPA.wav" />
+    </cell>
+    <cell image="conejodientes.JPG">
+     <media type="PLAY_AUDIO" level="1" file="DENTS.wav" />
+    </cell>
+    <cell image="cara.jpg">
+     <media type="PLAY_AUDIO" level="1" file="ULL.wav" />
+    </cell>
+    <cell image="POTES.jpg">
+     <media type="PLAY_AUDIO" level="1" file="POTES.wav" />
+    </cell>
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="portada" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="18" bold="true" />
+      <gradient source="0x009966" dest="0xFFFFFF" angle="0" />
+     </style>
+     <p>EL CONILL</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x009966">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="true" image="portada.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="conill2.gif" file="conill2.gif" />
+  <media name="2con.jpg" file="2con.jpg" />
+  <media name="4CONILLS..jpg" file="4CONILLS..jpg" />
+  <media name="4conills.jpg" file="4conills.jpg" />
+  <media name="5CONILLS.jpg" file="5CONILLS.jpg" />
+  <media name="6CONILLS.jpg" file="6CONILLS.jpg" />
+  <media name="7CONILLS.jpg" file="7CONILLS.jpg" />
+  <media name="8CONILLS.jpg" file="8CONILLS.jpg" />
+  <media name="9CONILLS.jpg" file="9CONILLS.jpg" />
+  <media name="BIGOTIS.jpg" file="BIGOTIS.jpg" />
+  <media name="bosque.jpg" file="bosque.jpg" />
+  <media name="cara.jpg" file="cara.jpg" />
+  <media name="cargol.jpg" file="cargol.jpg" />
+  <media name="conejitos+mama.jpg" file="conejitos+mama.jpg" />
+  <media name="conejo.jpg" file="conejo.jpg" />
+  <media name="conejo.peq.JPG" file="conejo.peq.JPG" />
+  <media name="conejo2-1.JPG" file="conejo2-1.JPG" />
+  <media name="conejo21.JPG" file="conejo21.JPG" />
+  <media name="conejodientes.JPG" file="conejodientes.JPG" />
+  <media name="conejoss.JPG" file="conejoss.JPG" />
+  <media name="conillet.jpg" file="conillet.jpg" />
+  <media name="conills.cau.JPG" file="conills.cau.JPG" />
+  <media name="conillsorra.jpg" file="conillsorra.jpg" />
+  <media name="elefant.jpg" file="elefant.jpg" />
+  <media name="gabia.jpg" file="gabia.jpg" />
+  <media name="galletas.jpg" file="galletas.jpg" />
+  <media name="gatet.jpg" file="gatet.jpg" />
+  <media name="gel.jpg" file="gel.jpg" />
+  <media name="gran.jpg" file="gran.jpg" />
+  <media name="gran2.jpg" file="gran2.jpg" />
+  <media name="gran3.jpg" file="gran3.jpg" />
+  <media name="granja.jpg" file="granja.jpg" />
+  <media name="granja1.jpg" file="granja1.jpg" />
+  <media name="hierba.1.JPG" file="hierba.1.JPG" />
+  <media name="hierba.2.JPG" file="hierba.2.JPG" />
+  <media name="macarrones.jpg" file="macarrones.jpg" />
+  <media name="maiz.jpg" file="maiz.jpg" />
+  <media name="maiz1.jpg" file="maiz1.jpg" />
+  <media name="marieta.jpg" file="marieta.jpg" />
+  <media name="nuez.jpg" file="nuez.jpg" />
+  <media name="ORELLES.jpg" file="ORELLES.jpg" />
+  <media name="ovella.jpg" file="ovella.jpg" />
+  <media name="pastagana2.JPG" file="pastagana2.JPG" />
+  <media name="pastanaga.1.JPG" file="pastanaga.1.JPG" />
+  <media name="portada.jpg" file="portada.jpg" />
+  <media name="POTES.jpg" file="POTES.jpg" />
+  <media name="rabbit..JPG" file="rabbit..JPG" />
+  <media name="REDUIT.jpg" file="REDUIT.jpg" />
+  <media name="urpa.JPG" file="urpa.JPG" />
+  <media name="4.wav" file="4.wav" />
+  <media name="5.wav" file="5.wav" />
+  <media name="6.wav" file="6.wav" />
+  <media name="7.wav" file="7.wav" />
+  <media name="8.wav" file="8.wav" />
+  <media name="9.wav" file="9.wav" />
+  <media name="BIGOTI.wav" file="BIGOTI.wav" />
+  <media name="BOSC.wav" file="BOSC.wav" />
+  <media name="CAU.wav" file="CAU.wav" />
+  <media name="DENTS.wav" file="DENTS.wav" />
+  <media name="E1.wav" file="E1.wav" />
+  <media name="E2.wav" file="E2.wav" />
+  <media name="E3.wav" file="E3.wav" />
+  <media name="E4.wav" file="E4.wav" />
+  <media name="E5.wav" file="E5.wav" />
+  <media name="E6.wav" file="E6.wav" />
+  <media name="EXPLORA.wav" file="EXPLORA.wav" />
+  <media name="FRASE.wav" file="FRASE.wav" />
+  <media name="GABIA.wav" file="GABIA.wav" />
+  <media name="GRANJA.wav" file="GRANJA.wav" />
+  <media name="IDEN1.wav" file="IDEN1.wav" />
+  <media name="IDEN2.wav" file="IDEN2.wav" />
+  <media name="IELEM.wav" file="IELEM.wav" />
+  <media name="IELEM1.wav" file="IELEM1.wav" />
+  <media name="OMPLIR1.wav" file="OMPLIR1.wav" />
+  <media name="OMPLIR2.wav" file="OMPLIR2.wav" />
+  <media name="ORDENA1.WAV" file="C1.wav" />
+  <media name="ORDENA2.WAV" file="C2.wav" />
+  <media name="ORELLES.wav" file="ORELLES.wav" />
+  <media name="P1.wav" file="P1.wav" />
+  <media name="P2.wav" file="P2.wav" />
+  <media name="PARELLES1.wav" file="PARELLES1.wav" />
+  <media name="POTES.wav" file="POTES.wav" />
+  <media name="PUZZLE2'.wav" file="PUZZLE2'.wav" />
+  <media name="PUZZLE2.wav" file="PUZZLE2.wav" />
+  <media name="Q.wav" file="Q.wav" />
+  <media name="Q1.wav" file="Q1.wav" />
+  <media name="QQ.wav" file="QQ.wav" />
+  <media name="SOPA.wav" file="SOPA.wav" />
+  <media name="ULL.wav" file="ULL.wav" />
+  <media name="URPA.wav" file="URPA.wav" />
+  <media name="VIURE1.wav" file="VIURE1.wav" />
+  <media name="VIURE2.wav" file="VIURE2.wav" />
+ </mediaBag>
+</JClicProject>
+

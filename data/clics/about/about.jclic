@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="sugar_clic_help" version="0.1.3">
+ <settings>
+  <title>About</title>
+  <revision description="created" date="12/16/09" />
+  <descriptors />
+  <actinicial />
+ </settings>
+ <sequence>
+  <item id="start" name="ANTERIOR" />
+  <item name="inicio_2" />
+ </sequence>
+ <activities>
+  <activity class="@panels.InformationScreen" name="ANTERIOR" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>ABOUT </p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="10" cols="14" border="false" image="about.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="14" rows="10" />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell border="false">
+     <style borderStroke="10.0" markerStroke="2.7">
+      <color border="0x990000" />
+     </style>
+    </cell>
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+    <cell />
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="inicio_2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>PRESIONA EL BOTÓN AZUL PARA VER LOS CLICS</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+    <eventSounds enabled="false" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="748.0" cellHeight="140.0" border="false">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="28" />
+      <color foreground="0x0033FF" />
+     </style>
+     <p>YA PUEDES EMPEZAR A JUGAR!!!</p>
+    </cell>
+    <cell />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="20" />
+      <color foreground="0x0000FF" />
+     </style>
+    </cell>
+   </cells>
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="about.jpg" file="about.jpg" />
+ </mediaBag>
+</JClicProject>
+

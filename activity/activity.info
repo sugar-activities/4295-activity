@@ -1,0 +1,11 @@
+[Activity]
+name = Clics Player
+bundle_id = net.netii.kumuolpc.ClicPlayer
+service_name = net.netii.kumuolpc.CliclPlayer
+class = activity.ClicPlayerActivity
+icon = clicplayer-icon
+activity_version = 1 
+show_launcher = yes
+host_version = 1
+update_url = http://kumuolpc.netii.net/clicplayer.html
+license = GPLv2+

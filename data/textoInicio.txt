@@ -1,0 +1,8 @@
+SugarClic es un proyecto educativo para el OLPC que consiste en la adaptación de JClic para esta plataforma. 
+Más concretamente, está enfocado a desarrollar un reproductor de Actividades Clic, para distribuir contenidos 
+ya creados por educadores de todo el mundo para el JClic.
+
+El JClic es una aplicación creada por Francesc Busquets, del Departamento de Educación de la Generalitat de 
+Cataluña. Es una aplicación que consta de diversos tipos de actividades educativas y se trata de un proyecto 
+de código abierto que ya se ha desarrollado en la plataforma de Java. Trabaja en distintos entornos 
+(navegador,  escritorio, etc.), así como varios sistemas operativos (Windows, Linux, MacOS)
